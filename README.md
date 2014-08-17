@@ -37,7 +37,7 @@ cli._servers
 
 Exemple of cli object after search with a server and renderer:
 --------------------------------------------------------------
-
+<pre>
 upnpClient {domain: null, _events: Object, _maxListeners: 10, _client: Socket, _ssdp: SSDP…}
 _avTransports: Array[2]
 _client: Socket
@@ -87,5 +87,5 @@ _ssdp: SSDP
 _udnList: Array[5]
 domain: null
 __proto__: upnpClient
-
+</pre>
 
