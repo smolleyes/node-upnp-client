@@ -8,7 +8,9 @@ Exemple:
 --------
 
 <pre>
-var cli = require('node-upnp-client');
+
+var upnpClient = require('node-upnp-client');
+var cli = new upnpClient();
 
 //start search
 
@@ -18,7 +20,7 @@ cli.searchDevices();
 // listen for search terminated
 <pre>
 cli.on('updateUpnpDevice', function() {
-	console.log('transports: ' +cli._avTransports+ '\nRenderers' + cli._renderers +'\nServers'+ cli._servers)
+	console.log('Servers'+ JSON.stringify(cli._servers))
 });
 </pre>
 
@@ -26,7 +28,7 @@ cli.on('updateUpnpDevice', function() {
 
 <pre>
 cli.on('updateUpnpDevice', function() {
-	console.log('transports: ' +cli._avTransports+ '\nRenderers' + cli._renderers +'\nServers'+ cli._servers)
+	console.log('Servers'+ JSON.stringify(cli._servers))
 });
 </pre>
 
