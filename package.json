@@ -1,5 +1,5 @@
 {
-  "name": "upnp-client",
+  "name": "node-upnp-client",
   "description": "A pure Javascript upnp client",
   "keywords": [
     "upnp",
@@ -29,6 +29,6 @@
   "bugs": {
     "url": "https://github.com/smolleyes/node-upnp-client/issues"
   },
-  "_id": "node-upnp-client@0.1",
+  "_id": "node-upnp-client@0.0.1",
   "_from": "node-upnp-client@"
 }
