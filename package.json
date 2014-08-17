@@ -22,7 +22,7 @@
   "dependencies": {
     "xmldoc": "*",
     "ip": "*",
-    "underscore" : "*",
+    "underscore" : "*"
   },
   "readme": "",
   "readmeFilename": "README.md",
