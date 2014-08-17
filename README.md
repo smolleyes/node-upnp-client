@@ -21,7 +21,7 @@ cli.searchDevices();
 
 // listen for search terminated
 <pre>
-cli.on('updateUpnpDevice', function() {
+cli.on('searchDevicesEnd', function() {
 	console.log('Servers'+ JSON.stringify(cli._servers))
 });
 </pre>
