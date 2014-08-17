@@ -14,6 +14,7 @@ var cli = require('node-upnp-client');
 cli.searchDevices();
 
 // listen for search terminated
+
 cli.on('updateUpnpDevice', function() {
 	console.log('transports: ' +cli._avTransports+ '\nRenderers' + cli._renderers +'\nServers'+ cli._servers)
 });
