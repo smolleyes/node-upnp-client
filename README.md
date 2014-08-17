@@ -7,32 +7,37 @@ Get a list of the upnp devices on your local network thru nodejs and return netw
 Exemple:
 --------
 
+<pre>
 var cli = require('node-upnp-client');
 
 //start search
 
 cli.searchDevices();
+</pre>
 
 // listen for search terminated
-
+<pre>
 cli.on('updateUpnpDevice', function() {
 	console.log('transports: ' +cli._avTransports+ '\nRenderers' + cli._renderers +'\nServers'+ cli._servers)
 });
+</pre>
 
 // listen for added / removed devices
 
+<pre>
 cli.on('updateUpnpDevice', function() {
 	console.log('transports: ' +cli._avTransports+ '\nRenderers' + cli._renderers +'\nServers'+ cli._servers)
 });
-
+</pre>
 
 you can now access, servers/renderers/connectionManagers and avTransports lists with :
 
+<pre>
 cli._avTransports, 
 cli._renderers, 
 cli._connectionManagers, 
 cli._servers
-
+</pre>
 
 
 Exemple of cli object after search with a server and renderer:
