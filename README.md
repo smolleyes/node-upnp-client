@@ -28,9 +28,9 @@ cli.on('updateUpnpDevice', function() {
 
 you can now access, servers/renderers/connectionManagers and avTransports lists with :
 
-cli._avTransports
-cli._renderers
-cli._connectionManagers
+cli._avTransports, 
+cli._renderers, 
+cli._connectionManagers, 
 cli._servers
 
 
