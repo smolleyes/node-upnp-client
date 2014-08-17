@@ -2,6 +2,7 @@ DESCRIPTION:
 ------------
 
 Get a list of the upnp devices on your local network thru nodejs and return networkServices like objects
+i originaly developped it to work with https://github.com/richtr/plug.play.js
 
 
 Exemple:
